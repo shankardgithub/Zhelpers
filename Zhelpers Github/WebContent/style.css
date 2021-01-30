@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400&display=swap');
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1vw;
+	background-color: #e6e6e6;
+}
+ul{
+	background-color: #00001a;
+	color: white;
+	list-style-type: none;
+	overflow: hidden;
+	top: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:HOVER {
+	background-color: white;
+	color: #00001a;
+}
+li ul
+{
+	display: none;
+}
+li ul li a{
+	padding: 10px 15px; 
+}
+li:hover ul 
+{
+    display: block;
+    top:auto;
+    position: absolute;
+}
+li:hover li
+{
+    float: none;
+}
+.active{
+	background-color: gray;
+}
+input[type=text],input[type=password],select{
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+input[type=text]:FOCUS,input[type=password]:FOCUS,.button:FOCUS{
+  outline: none;
+}
+.login{
+  width: 700px;
+  height: 350px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 8%;
+  border: 2px solid  white;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+.login .left{
+  float: left;
+  width: 50%;
+  height: 350px;
+  background: url(img.jpg) no-repeat;
+  background-size: cover;
+}
+.login .right{
+  float: left;
+  width: 50%;
+  height: 350px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+.row{
+  width: 1000px;
+  height: 520px;
+  padding:10px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 1%;
+  border: 2px solid  white;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.5);
+}
+.row .column1{
+  float: left;
+  width: 50%;
+  height: 350px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+.row .column2{
+  float: left;
+  width: 50%;
+  height: 350px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+textarea {
+  width: 100%;
+  height: 300px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  font-family: 'Work Sans', sans-serif;
+}
+select:FOCUS,textarea:FOCUS,input[type=submit]:FOCUS{
+  outline: none;
+}
+input[type=submit],button{
+  width: 100px;
+  background-color: #00001a;
+  color: white;
+  padding: 7px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Work Sans', sans-serif;
+}
+input[type=submit]:HOVER,button:HOVER{
+	background-color: white;
+	color: #00001a;
+	box-shadow: 0 1px 5px rgba(0, 0, 26,0.5);
+}
+a{
+	text-decoration: none;
+	color: #00001a;
+}
